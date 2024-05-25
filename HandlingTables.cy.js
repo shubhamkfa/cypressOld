@@ -22,7 +22,7 @@ describe('Handelingtables',()=>{
         cy.get('table[class="table table-bordered table-hover"]>thead>tr>td').should('have.length','7');
 
         cy.get('table[class="table table-bordered table-hover"]>tbody>tr').should('not.have.length','11');
-        cy.get('table[class="table table-bordered table-hover"]>thead>tr>td').should('not.have.length','8');
+        cy.get('table[class="table table-bordered table-hover"]>thead>tr>td').should('not.have.length','8')
         
 
 
