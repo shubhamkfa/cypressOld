@@ -5,8 +5,6 @@
 describe('Handelingtables',()=>{
 
     // we can use before each if we want to visit same url for all it block to execute
-    //
-
     it.skip('Login',()=>{
         cy.visit("https://demo.opencart.com/admin/")
         cy.get('#input-username').type("demo")
