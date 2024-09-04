@@ -1,0 +1,63 @@
+37fb6fe5a214412ca5fedfa972a6ab34
+
+#nav-xshop > a:nth-child(30)
+
+
+
+
+
+Xpath 
+
+/html/body/div[1]/header/div/div[5]/div[2]/div/div/a[29] - absolute Xpth  -> More accurate -> Risky to use 
+
+
+//*[@id="nav-xshop"]/a[29] - Relative/dynamic/customized -> accurate -> recommended to use -> 
+
+syntax -
+//htmltag[@attribute= 'value']
+
+//a[@data-csa-c-content-id='nav_cs_automotive']
+
+<a href="/Car-Motorbike-Store/b/?ie=UTF8&amp;node=4772060031&amp;ref_=nav_cs_automotive" class="nav-a  " tabindex="0" data-csa-c-type="link" data-csa-c-slot-id="nav_cs_14" data-csa-c-content-id="nav_cs_automotive" data-csa-c-id="5xza9x-vl94h2-nwsg2u-9mdsl3">Car &amp; Motorbike</a>
+
+
+
+
+// DYNAMIC ELEMENT start-with & end-with 
+
+start-with 
+//htmltag[start-with(@attibute,'value')]
+
+
+
+
+end-with
+//htmltag[end-with(@attribute,'value')]
+
+
+// Dynamic element with text() and contains 
+
+
+Text() -> link,hyperlink,text,lolgo,/images
+syntax 
+//tagname[text()='valueoftext']
+//span[text()='Mobile Accessories']
+
+
+https://www.amazon.in/ref=nav_logo
+
+contains() -> link,hyperlink,text,logos,images
+syntax 1
+
+//htmltag[contains(text(),'value of the text')]
+//a[contains(text(),' Electronics ')]
+
+
+
+syntax 2 
+//htmltag[contains(@attribute,'value of the text')]
+
+
+
+
+
