@@ -42,7 +42,7 @@ describe('Handelingtables',()=>{
 
 
     })
-    //find any text within table 
+    //find any text within table //
     //video link ( https://www.youtube.com/watch?v=OP4NQBJieWE )
     it('findText',function (){
 
